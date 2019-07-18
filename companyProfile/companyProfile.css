@@ -1,0 +1,81 @@
+.banner img{
+	width:100%;
+	vertical-align: top;
+}
+section{
+	width:1190px;
+	margin:0 auto;
+	overflow: hidden;
+	padding:0 5px;
+}
+section>img{
+	display: block;
+	vertical-align: bottom;
+}
+section>h4{
+	text-align: right;
+	font-size:14px;
+	color:#333333;
+	margin-top:28px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #666666;
+}
+section>h4>span{
+	color:#830a13;
+}
+section>li{
+	float: left;
+	font-size: 18px;
+	color:#840810;
+	padding:14px 0 14px 14px;
+	border-left:1px solid #666666;
+	position: relative;
+	width:102px;
+}
+section>li>img{
+	position: absolute;
+	left:-5px;
+	top:19px;
+}
+section>li>span{
+	display: inline-block;
+	width:10px;
+	height:1px;
+	background:#666666;
+	position: absolute;
+	right:0;
+	top:50%;
+}
+section>div{
+	float: left;
+	margin-left:70px;
+	margin-top:-6px;
+	width:1000px;
+}
+section>div>h3{
+	font-size: 16px;
+	color:#333333;
+	padding-bottom:8px;
+	border-bottom: 1px solid #b13537;
+	width:202px;
+}
+section>div>h3>span{
+	font-size: 13px;
+	color:#747474;
+}
+section>div>p{
+	font-size: 14px;
+	color:#818181;
+}
+section>div>p:nth-of-type(1){
+	margin-top:18px;
+}
+section>div>p:nth-of-type(n+2){
+	margin-top:26px;
+}
+section>div>img{
+	margin:15px 0;
+}
+section>div>img:nth-of-type(1){
+	margin-right: 90px;
+}

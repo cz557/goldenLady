@@ -1,0 +1,62 @@
+/* 通用样式 */
+body,p,ul,h2,h3,h4,span{
+    margin:0;
+    padding:0;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* header */
+header{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+header a{
+    font-size: 16px;
+    color:#333333;
+}
+.right_top{
+    margin-top:16px;
+    text-align: right;
+}
+.right_top input{
+    border-radius: 20px;
+    border:none;
+    border:1px solid #323232;
+    text-indent: 1em;
+    height:24px;
+    width:220px;
+    outline: none;
+    margin-right:36px;
+    background: url(./index/img/search.jpg) no-repeat 195px;
+}
+header ul{
+    overflow: hidden;
+}
+header ul li{
+    float: left;
+    margin-top:24px;
+    margin-left:56px;
+    padding:0 3px 8px 3px;
+}
+header ul li:hover{
+     border-bottom: 2px solid #850913;
+}
+/* footer */
+footer{
+    line-height: 92px;
+    background: #666666;
+    text-align: center;
+    color:#fff;
+    font-size: 13px;
+}

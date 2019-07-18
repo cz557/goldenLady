@@ -1,0 +1,135 @@
+.banner img{
+	width:100%;
+	vertical-align: top;
+}
+section{
+	width:1200px;
+	margin:0 auto;
+}
+.sectionTop{
+	text-align: right;
+	margin-top:38px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666666;
+}
+.sectionTop span{
+	color:#a3090b;
+	font-size: 14px;
+}
+.sectionTop p,h4{
+	display: inline-block;
+	color:#343434;
+	font-size: 14px;
+	font-weight:400;
+}
+.sectionTop h4{
+	color:#666666;
+}
+.sectionMiddle{
+	height:668px;
+}
+.sectionMiddle>img{
+	display: block;
+}
+.sectionMiddle>ul{
+	position: relative;
+	border-left:1px solid #666666;
+	padding-left: 8px;
+	padding-top:10px;
+}
+.sectionMiddle>ul>img{
+	position: absolute;
+	top:14px;
+	left:-6px;
+}
+.sectionMiddle>ul>li{
+	color:#333333;
+	margin-bottom: 20px;
+	width:112px;
+	cursor: pointer;
+}
+.sectionMiddle>ul>li>span{
+	font-size: 20px;
+	line-height: 21px;
+	position: absolute;
+	right:0;
+	z-index: -1;
+}
+.sectionMiddle>div.left{
+	width:1020px;
+	margin-left:59px;
+	margin-top:-6px;
+	position: relative;
+}
+.sectionMiddle>div.left>div{
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	transition: all  1s;
+}
+.sectionMiddle>div.left>div.active{
+	opacity: 1;
+}
+.sectionMiddle>div.left>div>h3{
+	font-size: 17px;
+	color:#333333;
+	padding-bottom: 9px;
+	width:196px;
+	border-bottom: 1px solid #b03537;
+}
+.sectionMiddle>div.left>div>h3>span{
+	font-size: 12px;
+	color:#666666;
+}
+.sectionMiddle>div.left>div>p{
+	font-size: 14px;
+	color:#999999;
+	margin-top:22px;
+	margin-bottom: 62px;
+	line-height: 24px;
+}
+.sectionMiddle>div.left>div>ul{
+	overflow: hidden;
+}
+.sectionMiddle>div.left>div>ul>li{
+	width:318px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.sectionMiddle>div.left>div>ul>li:nth-of-type(n+2){
+	margin-left:30px;
+}
+.sectionMiddle>div.left>div>ul>li>img{
+	width:318px;
+	height:361px;
+	vertical-align: top;
+}
+.sectionMiddle>div.left>div>ul>li>p{
+	position: absolute;
+	box-sizing: border-box;
+	width:100%;
+	padding: 0 20px;
+	bottom: 43px;
+	left:0;
+	height:80px;
+	padding-top: 20px;
+	text-align: center;
+	background:rgba(255,0,0,.3);
+	opacity: 0;
+	transition: all 1s;
+}
+.sectionMiddle>div.left>div>ul>li>span{
+	display: block;
+	margin-top:22px;
+	font-size: 17px;
+	color:#333333;
+	text-align: center;
+}
+.sectionMiddle>div.left>div>ul>li:hover p{
+	opacity: 1;
+}
+
+
+

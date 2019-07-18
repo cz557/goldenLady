@@ -1,0 +1,234 @@
+.banner img{
+    width:100%;
+}
+/* section top*/
+section{
+    width:1190px;
+    margin:0 auto;
+    overflow: hidden;
+    padding:0 5px;
+}
+.sectionTop{
+    float: right;
+    margin-top:26px;
+}
+.sectionTop h2,h3,h4,span{
+    font-size: 14px;
+    color:#4a4a4a;
+    display: inline-block;
+}
+.sectionTop>h3{
+    color:#656565;
+}
+.sectionTop h4{
+    color:#830a13;
+}
+
+/* sectionMiddle */
+.sectionMiddle{
+    border-top:1px solid #666666;
+    margin-top:55px;
+}
+.sectionMiddle>img{
+    vertical-align: bottom;
+}
+.sectionMiddle>ul{
+    width:130px;
+    border-left:1px solid #666666;
+    position: relative;
+}
+.sectionMiddle>ul>img{
+	position: absolute;
+	left:-5px;
+	top:25px;
+}
+.sectionMiddle ul li div div{
+    padding-bottom: 6px;;
+    margin-top:14px;
+}
+.sectionMiddle ul li{
+    cursor: pointer;
+}
+.sectionMiddle ul li div div{
+    cursor: pointer;
+}
+.sectionMiddle>ul>li{
+  font-size: 18px;
+  color:#494949;
+  margin-top:20px;
+  margin-left:10px;
+  position: relative;
+}
+.sectionMiddle>ul>li.active{
+    color:#840812;
+}
+.sectionMiddle>ul>li div{
+    font-size: 14px;
+    color:#666666;
+}
+.sectionMiddle>ul>li div div.active{
+    color:#840813;
+    border-bottom: 1px solid #999999;
+}
+.sectionMiddle>ul>li>span{
+    font-size: 20px;
+    position: absolute;
+    right:0;
+    z-index:-1;
+}
+.sectionMiddle ul li>div{
+     display: none; 
+}
+.sectionMiddle ul li>div.active{
+     display: block; 
+}
+.sectionMiddle ul li div div h5{
+	display:none;
+	
+}
+/*sectionMiddle right*/
+.sectionMiddle .right{
+	position: relative;
+	width:628px;
+	height:314px;
+	border:1px solid #666666;
+	margin-top:24px;
+	padding:40px 10px 0 204px;
+}
+.sectionMiddle .right>div:nth-of-type(1){
+	width:242px;
+	height:344px;
+	background:#666666;
+	position: absolute;
+	left:-60px;
+	top:-20px;
+}
+.sectionMiddle .right div:nth-of-type(1) img{
+	position: absolute;
+	left:-36px;
+	top:-28px;
+	width:242px;
+	height:344px;
+}
+.sectionMiddle .right fieldset{
+	width:194px;
+	position: absolute;
+	top:-40px;
+	right:200px;
+	text-align: center;
+	background: #fff;
+}
+.sectionMiddle .right fieldset legend{
+	font-size: 20px;
+	color: #333333;
+}
+.sectionMiddle .right fieldset h2{
+	font-size: 14px;
+	color:#676767;
+}
+.sectionMiddle .right div div{
+	position: absolute;
+	opacity: 0;
+	transition: all 1s;
+}
+.sectionMiddle .right div div.active{
+	opacity: 1;
+	animation: slideInUp 1.5s;
+}
+.sectionMiddle .right div div p{
+	color:#666666;
+	font-size: 13px;
+	line-height: 24px;
+}
+.sectionMiddle .right div div p:nth-of-type(n+2){
+	margin-top:20px;
+}
+.sectionMiddle .right div img{
+	opacity: 0;
+	transition: all 2s;
+}
+.sectionMiddle .right div img.active{
+	opacity: 1;
+	animation: zoomInLeft 1s;
+}
+/*carousel 图片轮播区*/
+.big{
+	position: relative;
+	margin-bottom: 66px;
+}
+.carousel{
+	margin-top:64px;
+	width:860px;
+	margin-left:460px;
+	overflow: hidden;
+	position: relative;
+}
+.big>button{
+	position: absolute;
+	top:50%;
+	margin-top:-15px;
+	width:30px;
+	height: 30px;
+	font-size: 24px;
+	border:none;
+	border-radius: 15px;
+	background: rgba(0,0,0,.2);
+	color:#fff;
+	cursor: pointer;
+	transition: all 1s;
+	z-index: 100;
+	outline: none;
+}
+.big>button:hover{
+	transform: scale(1.2);
+	background: rgba(0,0,0,.6);
+}
+.big>button:nth-of-type(1){
+	left:410px;
+}
+.big>button:nth-of-type(2){
+	right:150px;
+}
+.container{
+	width:1760px;
+	overflow: hidden;
+	position: relative;
+	transition: all 1s;
+	left:0;
+}
+.container>div{
+	float:left;
+	margin-left:40px;
+	position: relative;
+	cursor: pointer;
+	transition: all 1s;
+}
+.container>div:nth-of-type(1){
+	margin:0;
+}
+.carousel .container>div>img{
+	width:260px;
+	height:180px;
+	vertical-align: top;
+	transition: all 1s; 
+}
+.container>div>p{
+	font-size: 13px;
+	color:#fff;
+	text-align: center;
+	background: rgba(255,0,0,.2);
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height:0px;
+	overflow: hidden;
+	transition: all 1s;
+}
+.container>div:hover p{
+	height:40px;
+	transform: scale(1.1);
+}
+.container>div:hover img{
+	transform: scale(1.1);
+}
